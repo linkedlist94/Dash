@@ -58,7 +58,7 @@ namespace VoiceBot
 
             catch(Exception)
             {
-                throw;
+                return;
             }
 
             speech.SelectVoiceByHints(VoiceGender.Male);
@@ -368,6 +368,10 @@ namespace VoiceBot
                 if (r == "close google" || r == "close chrome")
                 {
                     killProg("google");
+                }
+                if (r == "open facebook")
+                {
+                    Process.Start("http://facebook.com");
                 }
             }
         }
