@@ -1,0 +1,40 @@
+hi    
+how are you    
+what time is it  
+what day is it    
+what is today    
+open chrome  
+open google    
+hey dash    
+sleep    
+restart    
+update    
+tell me a joke    
+open word    
+close word   
+open excel    
+close excel    
+open league of legends    
+open league    
+close league   
+what is the weather today   
+what is the temperature    
+what is the high for today    
+what is the low for today  
+give me a detailed weather report    
+give me the full weather report    
+thank you    
+open curse voice    
+close curse voice  
+what is your name   
+maximize    
+minimize    
+normalize   
+play    
+pause    
+close itunes    
+open itunes    
+next song    
+next  
+last    
+last song 
