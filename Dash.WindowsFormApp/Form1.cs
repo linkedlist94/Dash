@@ -41,7 +41,7 @@ namespace VoiceBot
 
 
 
-            list.Add(File.ReadAllLines(@"C:\Users\Joseph\Desktop\VBot\commands.txt")); 
+            list.Add(File.ReadAllLines(@"..\..\commands.txt")); 
             
 
             Grammar grammar = new Grammar(new GrammarBuilder(list));
@@ -55,10 +55,9 @@ namespace VoiceBot
                 rec.RecognizeAsync(RecognizeMode.Multiple);
 
             }
-
             catch(Exception)
             {
-                throw;
+                //throw;
             }
 
             speech.SelectVoiceByHints(VoiceGender.Male);
