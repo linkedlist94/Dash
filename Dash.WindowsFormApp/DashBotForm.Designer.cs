@@ -1,6 +1,6 @@
 ﻿namespace VoiceBot
 {
-    partial class Form1
+    partial class DashBotForm
     {
         /// <summary>
         /// Required designer variable.
@@ -42,7 +42,7 @@
             this.metroTile1.Text = "State: Awake";
             this.metroTile1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.metroTile1.UseSelectable = true;
-            this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
+            //this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
             // metroTile2
             // 
@@ -54,16 +54,16 @@
             this.metroTile2.Text = "metroTile2";
             this.metroTile2.UseSelectable = true;
             // 
-            // Form1
+            // DashBotForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 466);
             this.Controls.Add(this.metroTile2);
             this.Controls.Add(this.metroTile1);
-            this.Name = "Form1";
+            this.Name = "DashBotForm";
             this.Text = "VoiceBot";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            //this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
